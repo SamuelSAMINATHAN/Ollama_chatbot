@@ -1,0 +1,6 @@
+PyMuPDF
+requests
+langchain
+langchain_ollama
+langchain-community
+chromadb
