@@ -21,8 +21,8 @@ Tkinter is used for the graphical interface.
 ## Installation
 
 1. Clone the repository:
-   git clone https://github.com/votre_utilisateur/mon_projet.git
-   cd mon_projet
+   git clone https://github.com/SamuelSAMINATHAN/Ollama_chatbot.git
+   cd Ollama_chatbot
 
 2. Create and activate a virtual environment:
     python3 -m venv venv
