@@ -1,37 +1,40 @@
-# Projet Ollama Chatbot + Analyse PDF
+# Ollama Chatbot + PDF Analysis Project
 
-Ce projet est une application graphique (Tkinter) qui permet d'interagir avec un modèle de langage Ollama pour un chat général et d'analyser des documents PDF en générant des réponses ou un résumé à partir du contenu du PDF.
 
-## Fonctionnalités
+A project to familiarize myself with local LLMs.
+This project is an application that allows interaction with an large langage model using Ollama for general chat and PDF document analysis by generating responses or a summary from the content of a PDF.
+Tkinter is used for the graphical interface. 
 
-- **Chat général** : Utilisation d'une LLMChain pour poser des questions en langage naturel.
-- **Analyse PDF** : Extraction du texte d'un PDF et création d'une chaîne de QA (question / réponse) ou d'un résumé via RetrievalQA.
+## Features
 
-## Prérequis
+- **Chat général** : Uses an LLMChain to ask questions in natural language.
+- **Analyse PDF** : Extracts text from a PDF and creates a QA (question/answer) chain or a summary using RetrievalQA.
+
+## Prerequisites
 
 - Python 3.10+
-- installez [Ollama] (https://ollama.com/download/windows) 
-- Installez des modèle LLM via le terminal (https://ollama.com/search) Ex:(ollama run deepseek-r1:8b)
-- L'application utilise par défault "nomic-embed-text" pour l'embedding (ollama pull nomic-embed-text) 
-    (Si vous voulez utiliser un autre modèle d'embendding, changez la ligne 50 du code)
+- Install [Ollama] (https://ollama.com/download/windows) 
+- Install LLM models with the terminal (https://ollama.com/search) Ex:(ollama run deepseek-r1:8b)
+- The application uses "nomic-embed-text" by default for embedding (ollama pull nomic-embed-text) 
+    (If you want to use another embedding model, change line 50 of the code)
 
 ## Installation
 
-1. Clonez le dépôt :
+1. Clone the repository:
    git clone https://github.com/votre_utilisateur/mon_projet.git
    cd mon_projet
 
-2. Créez un environnement virtuel et activez-le :
+2. Create and activate a virtual environment:
     python3 -m venv venv
-    source venv/bin/activate      # sous Linux/macOS
+    source venv/bin/activate      # on Linux/macOS
     python -m venv venv
-    venv\Scripts\activate         # sous Windows
+    venv\Scripts\activate         # on Windows
 
-3. Installez les dépendances :
+3. Install dependencies:
     pip install -r requirements.txt
 
-4. Lancer l'application :
-    python3 main.py           # sous Linux/macOS
-    python3 main.py           # sous Windows
+4. Run the application:
+    python3 main.py           # on Linux/macOS
+    python3 main.py           # on Windows
 
-# Ollama_chatbot
+
